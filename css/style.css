@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    height: 200px;
+    background: url(http://dgdesign.ru/uploads/posts/2018-02/1518428304_shapka-sayta-turizm-76531541.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:azure;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.news {
+    background-color: azure;
+    padding: 50px 0 32px;
+}
+
+.new-text::before {
+    content: "New!!!";
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+
+article  {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(112,91,66);
+}
+
+article a {
+    color: rgb(49,158,197);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(26,117,160) ;
+}
+
+article:nth-child(even) {
+    background-color: rgb(204,244,244);
+}
+
+article h2 {
+    font-family: Lucida Console;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: black;
+    margin-top: 10px;
+}
+
+article img {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(87,199,219);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer .link {
+    margin-bottom: 20px;
+}
+
+footer .link > a {
+    color:azure;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.copyright {
+    color:azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
